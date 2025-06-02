@@ -4,7 +4,7 @@
 
 Here I chose to use the moire effect and create 3 expreiments showing what it is and how it is made.
 
-
+# Here is the code:
 function setup() {
   createCanvas(600, 600);
   stroke(0);
@@ -33,3 +33,6 @@ function draw() {
 
 
 https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_
+
+
+
