@@ -1,3 +1,56 @@
 Here is the second project that I made
 
-In this project I created a 
+In this project I created a brush that can use 4 different brush styles to paint on a canvas 
+
+I created a code that uses keys from '1 to 4' from the keyboard to change the brush style as it is effective and fast for the user.
+
+# Here is the code
+let brushType = 1;
+
+function setup() {
+  createCanvas(600, 400);
+  background(255);
+}
+
+function draw() {
+  if (mouseIsPressed) {
+    if (brushType === 1) {
+      // Basic round brush
+      fill(0);
+      noStroke();
+      ellipse(mouseX, mouseY, 10, 10);
+      
+    } else if (brushType === 2) {
+      // Soft spray brush
+      noStroke();
+      fill(0, 50); // transparent black
+      for (let i = 0; i < 20; i++) {
+        let offsetX = random(-10, 10);
+        let offsetY = random(-10, 10);
+        ellipse(mouseX + offsetX, mouseY + offsetY, 2);
+      }
+
+    } else if (brushType === 3) {
+      // Line brush (streak)
+      stroke(0);
+      strokeWeight(3);
+      line(pmouseX, pmouseY, mouseX, mouseY);
+
+    } else if (brushType === 4) {
+      // Square pixel brush
+      noStroke();
+      fill(0);
+      rect(mouseX, mouseY, 10, 10);
+    }
+  }
+}
+
+function keyPressed() {
+  if (key === '1') brushType = 1;
+  if (key === '2') brushType = 2;
+  if (key === '3') brushType = 3;
+  if (key === '4') brushType = 4;
+}
+
+
+https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_
