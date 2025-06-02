@@ -1,0 +1,35 @@
+In this Project I have created an autonomous pattern generator that creates a random and new unique pattern each time the page refreshes
+
+# Here is the code
+function setup() {
+  createCanvas(600, 600);
+  background(255);
+  noLoop(); // Run only once to generate a unique image
+  noStroke();
+
+  let shapes = int(random(100, 200)); // number of shapes varies each run
+
+  for (let i = 0; i < shapes; i++) {
+    let x = random(width);
+    let y = random(height);
+    let size = random(10, 100);
+    
+    // Random pastel color
+    fill(random(100, 255), random(100, 255), random(100, 255), 100);
+    
+    // Random shape type
+    let shapeType = int(random(3));
+    
+    if (shapeType === 0) {
+      ellipse(x, y, size, size); // circle
+    } else if (shapeType === 1) {
+      rect(x, y, size, size); // square
+    } else {
+      triangle(x, y, x + size, y, x + size / 2, y - size); // triangle
+    }
+  }
+}
+
+
+
+https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_
