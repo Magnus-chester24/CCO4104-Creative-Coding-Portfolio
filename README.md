@@ -1,6 +1,6 @@
 # CCO4104-Creative Coding Portfolio
 
-Magnus Chester 556729
+## **Magnus Chester 556729**
 
 ## About this Page
 
