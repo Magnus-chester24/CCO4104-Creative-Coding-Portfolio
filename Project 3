@@ -30,6 +30,32 @@ function setup() {
   }
 }
 
+[Link] to image (https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_)
 
+Project 3 Commentary:
+In this project I decided to create an autonomous pattern generator that creates a new
+unique pattern each time the page refreshes. In this program I used the tool noLoop() and
+this makes the program only draw one image and never repeat the same image and create something
+new each time whether that be a different colour for a certain shape or position of the shape on
+the white canvas. 
 
-https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_
+Mainly for this program I wanted to create something that had a random oriented
+factor that made it something new every time and I did this by using the fill(random) tool and this
+with allocating 2 numbers being 100 and 255 to create a random pastel colour for each box each time
+the program restarts. I did the same for the shape by using the let shapeType = int(random this
+similarly allowed the program to output a unique bunch of shapes onto the canvas with a different
+colour across each shape to overall have a very random and abstract image. 
+This was inspired to me by Tyler Hobbs as he used lots of randomness and he also is an infamous creative coder who uses
+coding skills to create artistic imagery, I felt that this project specifically has an artistic 
+impression due to its abstractness. In this project I think something that went well was the use of
+complex coding techniques such as the ones I have previously mentioned before as these are simple yet
+effective to implement as they are perfect to create a random and eccentric piece of imagery. 
+
+Furthermore, I think that my code creates variety each time as it picks a random number of shapes 
+between 100 and 200 which provides different levels of complexity for each sketch created. 
+This is positive overall as it does in fact create a distinctive and exclusive pattern each time as the
+code tells the program to never repeat the same pattern, so it is different every time. 
+However, I also think that if I were to improve or create the project again, I would research into moving 
+the shapes around the canvas potentially as it could create a motion effect for the user which they may find engaging. 
+
+![Image](https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_)
