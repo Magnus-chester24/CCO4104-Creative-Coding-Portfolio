@@ -56,3 +56,37 @@ function keyPressed() {
 
 
 [Link](https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_)
+
+Project 2 Commentary:
+
+For this project I decided to create a Mouse painting tool that has up to 4 brushes with
+a different style for each brush. In this code I decided to use simple yet effective functions
+and tools such as the ellipse(), line() and rect() tools, I chose these because they
+are a fun way with lots of user interaction and engagement.
+
+Each brush has a different 
+style or brush effect for example, brush 1 has a solid black dot effect, similar to a 
+regular pen or whiteboard pen, brush 2 creates a light spray effect using small dots to 
+create a pattern by following the mouse input and movement. Brush 3 uses a very thin and precise
+pen like a fountain pen which is great for sketching or writing short words and lastly, brush 4 is similar
+to brush 1 as it uses black squares instead of black circles to create images and this 
+can give the user a more pixel-art style. I was inspired to make this project from the list 
+as it reminded me of Microsoft paint which I have experience with as I have used it in school 
+before university, this was inspiring because I have always wondered how it was made on that 
+and I enjoyed creating a similar style that was user engaging and creative. 
+
+In my development 
+process I used multiple different functions such as if(mouseIsPressed) which was the input of the 
+mouse being clicked and this would then allow the output of a black line in each style depending on 
+whichever of the 1-4 keys was selected by the user. Also, I used the else if (brushType === 1) tool and 
+this would allow me to allocate each key from 1-4 to a different font style or 
+design as I mentioned before with each key and what style it outputs. 
+
+In this project I believe 
+that it went well as it used more advanced code levels that I researched into to create and 
+using these effectively can create a simple and engaging project. However, I feel that I could
+have made it more interesting such as adding multiple colours or made the keys output a different
+style that was more unique potentially, this could have made this project better
+and given it a different aesthetic towards the user which is something
+I would consider changing for next time. 
+
