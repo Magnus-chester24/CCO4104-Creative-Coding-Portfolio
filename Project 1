@@ -30,9 +30,9 @@ function draw() {
   pop();
 }
 
-[Link] (https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_)
+[Link](https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_)
 
-[Image] (https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_)
+[Image](https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_)
 
 
 Here is the second project of the three using the moire effect:
@@ -55,7 +55,7 @@ function draw() {
   }
 }
 
-https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_
+[Link](https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_)
 
 
 Here is the final project of the three using the moire effect:
@@ -82,4 +82,34 @@ function draw() {
   }
 }
 
-https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_
+[Link](https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_)
+
+Project 1 Commentary:
+
+For this first project I made 3 variations of the moire effect, and this effect is
+when two similar, but not identical patterns overlap and intertwine with one another
+usually with a wavy and ripple like pattern. In my code I have used several techniques
+to make it creative and use the moire effect in a unique way that catches attention
+when looked at. An example of this can be found where I used the draw() tool which has
+a function that it runs continuously and will clear the screen each time with a white background, 
+this function allows my image to have a constant and instantaneous generation of new 
+patterns and or images/ effects. 
+
+Another part of the code that I used to showcase 
+the moire effect would be using the push() and pop() function which are used so I can isolate 
+each shape and as push() creates a new group for transformations whilst pop() ends the drawing group,
+the transformation I chose was rotate which gave an effect that the image was moving every time 
+only slightly to create a unique and interesting effect. The inspiration for me to create 
+this was an online tutorial discussing what the moire effect is, and I found it intriguing,
+so I chose to learn how to create it myself.
+
+To reflect on my creation using the moire effect
+I consider that it was a difficult task to create as it involves different techniques to
+be able to work and output an interesting moire effect. However, I would also say that I did 
+create 3 unique moire effect patterns that are eye-catching and follow the convention of the 
+moire effect as the shapes/ patterns are similar but not identical and they overlap and 
+create a new pattern. In addition to this I did use techniques that were more complex and advanced 
+such as the ellipse() tool which draws an oval shape, and I also used the vertex() function which 
+creates a customised shape based on coordinates of the page using the x and y axis to determine
+where the shape will be drawn using the beginShape() function. 
+
