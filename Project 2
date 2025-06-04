@@ -52,5 +52,7 @@ function keyPressed() {
   if (key === '4') brushType = 4;
 }
 
+![Image](https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_)
 
-https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_
+
+[Link](https://editor.p5js.org/Magnus-chester24/full/v37qGGhF_)
